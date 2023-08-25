@@ -1,8 +1,6 @@
-pipeline
-{    
+pipeline{    
   agent any        
-  triggers
-  {        
+  triggers{        
     githubPush()    
   }    
   stages{        
